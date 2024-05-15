@@ -160,4 +160,24 @@ body{
     line-height: 2;
   }
 
-  .about-text
+  .about-cta{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: var(--color-black);
+  }
+
+  .about-image--img{
+    width: 50rem;
+    border-radius: 15px;
+    transition: all 0.5s ease;
+  }
+  .about-image--img:hover {
+    transform: scale(1.02);
+  }
+  @media screen and (max-width: 31.25em) {
+    .about-image--img {
+      width: 100%;
+      border-radius: 15px;
+      transition: all 0.5s ease;
+    }
+  }
