@@ -181,3 +181,29 @@ body{
       transition: all 0.5s ease;
     }
   }
+
+  .banner-2{
+    height: 55vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url(./assets/discover.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .banner-2-subtitle{
+    font-family: var(--secondary-font);
+    font-size: 4rem;
+    color: var(--color-primary);
+    text-transform: capitalize;
+  }
+
+  .banner-2-maintitle{
+    font-family: var(--primary-font);
+    font-size: 5rem;
+    color: var(--color-white);
+    text-align: center;
+  }
